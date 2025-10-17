@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios de JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ejercicios de JavaScript</h1>
+  <p>Selecciona un ejercicio para abrirlo:</p>
+
+  <div class="botones">
+    <button onclick="abrir('Ejercicio1.js')">Ejercicio 1</button>
+    <button onclick="abrir('Ejercicio2.js')">Ejercicio 2</button>
+    <button onclick="abrir('Ejercicio3.js')">Ejercicio 3</button>
+    <button onclick="abrir('Ejercicio4.js')">Ejercicio 4</button>
+    <button onclick="abrir('Ejercicio5.js')">Ejercicio 5</button>
+    <button onclick="abrir('Ejercicio6.js')">Ejercicio 6</button>
+    <button onclick="abrir('Ejercicio7.js')">Ejercicio 7</button>
+    <button onclick="abrir('Ejercicio8.js')">Ejercicio 8</button>
+    <button onclick="abrir('Ejercicio9.js')">Ejercicio 9</button>
+    <button onclick="abrir('Ejercicio10.js')">Ejercicio 10</button>
+  </div>
+
+  <script>
+    function abrir(archivo) {
+      // Abre el archivo en una pestaña nueva
+      window.open(archivo, '_blank');
+    }
+  </script>
+</body>
+</html>
